@@ -1,0 +1,7 @@
+object raqueta {
+    method costo(tenista) = 3000.min(100 * tenista.edad()) 
+}
+
+object trajeDeJudo {
+    method costo0(judoka) = 50 * judoka.altura() 
+}
