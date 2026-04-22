@@ -1,0 +1,10 @@
+import disciplinas.*
+describe "los presupuestos base son correctos" {
+  test "tenis tiene presupuesto base de 215" {
+    assert.equals(215, tenis.presupuestoBase())
+  }
+
+  test "judo presupuesto Base es de 480" {
+    assert.equals(480, judo.presupuestoBase())
+  }
+}
